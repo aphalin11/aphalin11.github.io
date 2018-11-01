@@ -357,7 +357,7 @@ figcaption {
     position: relative;
     bottom: 50%;
     background-color: #13363a;
-    opacity: 0.9; 
+    opacity: 1; 
     overflow: hidden;
     width: 100%;
     z-index: 1; 
@@ -367,7 +367,14 @@ figcaption {
 
 .overlay_text {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: "Helvetica"; 
+}
+
+.overlay_text li { 
+    padding-bottom: 25px;
+    padding-right: 5px;
+    padding-left: 2px;
 }
 
 .report:hover .overlay, 
@@ -387,8 +394,8 @@ figcaption {
 
 #passion_p { 
     position: relative;  
-    bottom: 20%; 
-    left: 10%; 
+    bottom: 80%; 
+    left: 15%; 
 }
 
 .passion img { 
