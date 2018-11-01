@@ -1,6 +1,11 @@
+.res_nav { 
+    position: absolute;
+    bottom: 93.5%;
+}
+
 .heading { 
     position: relative; 
-    top: 15%; 
+    top: 8%; 
     left: 15%;
     color: white;
     font-size: 26px;
@@ -12,7 +17,7 @@
     border: 1px solid black; 
     background-color: #d9ff66; 
     position: absolute; 
-    top: 30%;
+    top: 20%;
     padding-left: 2%; 
     padding-right: 1%; 
     margin-bottom: 5%;
