@@ -1,0 +1,146 @@
+.right_title {  
+    display: block; 
+    float: right; 
+    margin-right: 10%;   
+}
+
+.tron { 
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.3fr 1fr 1.8fr 0.3fr;
+        grid-template-columns: 0.3fr 1fr 1.8fr 0.3fr;
+    grid-gap: 5%;
+    row-gap: 45%;
+}
+
+h2 {
+    font-weight: bold; 
+}
+
+h3 { 
+    font-style: italic; 
+}
+
+.red_w { 
+    color : red; 
+}
+
+/* Technical Skills Slide */ 
+
+.skill_list { 
+    -ms-grid-column:2; 
+    grid-column-start:2; 
+    grid-column-end: 3;  
+}
+
+.tech_summary { 
+    -ms-grid-column:3; 
+    grid-column-start:3; 
+    grid-column-end: 4;  
+}
+
+.tech_summary p { 
+    font-size: 18px; 
+}
+
+.skill_list ul { 
+    display: inline-block; 
+}
+
+.skill_list li { 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+/* Conceptual Background - Mathematics and Statistics */ 
+.conc_tron { 
+    height: 60%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
+        grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
+    grid-gap: 5%;
+    row-gap: 30%;
+}
+
+.conc_summary1 { 
+    -ms-grid-column:2; 
+    grid-column-start:2; 
+    grid-column-end: 3;  
+}
+
+.conc_summary2 {
+    -ms-grid-column:3; 
+    grid-column-start:3; 
+    grid-column-end: 4;  
+}
+
+.conc_tron p { 
+    font-size: 18px; 
+}
+
+.conc_summary2 p { 
+    margin-top: 15%; 
+    text-ident: 50px; 
+}
+
+.conc_tron figure { 
+    -ms-grid-column:4; 
+    grid-column-start:4; 
+    grid-column-end: 5;  
+}
+
+figcaption { 
+    text-align: center; 
+}
+
+/* Education */ 
+
+.edu_tron { 
+    height: 60%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.2fr 1fr 2fr 0.2fr;
+        grid-template-columns: 0.2fr 1fr 2fr 0.2fr;
+    grid-gap: 5%;
+    row-gap: 30%;
+}
+
+.profile_box { 
+    -ms-grid-column:2; 
+    grid-column-start:2; 
+    grid-column-end: 3; 
+}
+
+.profile_box h3 { 
+    font-weight: bold; 
+}
+
+#gpa { 
+    margin-bottom: 5%; 
+}
+
+.curr_box { 
+    -ms-grid-column:3; 
+    grid-column-start:3; 
+    grid-column-end: 4; 
+}
+
+.curr_box li { 
+    font-size: 18px; 
+}
+
+
+/* Experiences */ 
+
+.exp_tron { 
+    height: 80%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.2fr 1fr 2fr 0.2fr;
+        grid-template-columns: 0.2fr 1fr 2fr 0.2fr;
+    -ms-grid-row: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-gap: 5%;
+    row-gap: 30%;
+}
