@@ -54,93 +54,199 @@ h3 {
 
 /* Conceptual Background - Mathematics and Statistics */ 
 .conc_tron { 
-    height: 60%;
+    height: 215%; 
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
-        grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
+    -ms-grid-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+        grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
     grid-gap: 5%;
-    row-gap: 30%;
 }
 
-.conc_summary1 { 
+.college_box { 
     -ms-grid-column:2; 
     grid-column-start:2; 
-    grid-column-end: 3;  
+    grid-column-end: 4; 
+    -ms-grid-row: 1; 
+    grid-row-start: 1; 
 }
 
-.conc_summary2 {
-    -ms-grid-column:3; 
-    grid-column-start:3; 
-    grid-column-end: 4;  
+#law_capt {
+    text-align: center; 
+    font-size: 16px; 
+    width: 400px; 
 }
 
-.conc_tron p { 
+.extracur_box { 
+    -ms-grid-column:4; 
+    grid-column-start:4; 
+    grid-column-end: 7; 
+    -ms-grid-row: 1; 
+    grid-row-start: 1;   
+}
+
+#extra_title { 
+    color: red; 
+    font-weight: bold; 
+    display: block; 
+    float: right; 
+}
+
+.extracur_box p { 
     font-size: 18px; 
 }
 
-.conc_summary2 p { 
-    margin-top: 15%; 
-    text-ident: 50px; 
+.extra_list { 
+    border: black solid 1px; 
+    margin-top: 7%; 
+    background-color: white; 
+    border-radius: 30px; 
+    padding-top: 1%;
+    padding-left: 3%; 
 }
 
-.conc_tron figure { 
-    -ms-grid-column:4; 
-    grid-column-start:4; 
-    grid-column-end: 5;  
-}
-
-figcaption { 
-    text-align: center; 
-}
-
-/* Education */ 
-
-.edu_tron { 
-    height: 60%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 0.2fr 1fr 2fr 0.2fr;
-        grid-template-columns: 0.2fr 1fr 2fr 0.2fr;
-    grid-gap: 5%;
-    row-gap: 30%;
-}
-
-.profile_box { 
+.lawrence_ben { 
     -ms-grid-column:2; 
     grid-column-start:2; 
-    grid-column-end: 3; 
+    grid-column-end: 7; 
+    -ms-grid-row: 2; 
+    grid-row-start: 2; 
 }
 
-.profile_box h3 { 
+.red_center { 
+    color: red; 
+    text-align: center; 
+    position: relative; 
+    bottom: 3%; 
     font-weight: bold; 
 }
 
-#gpa { 
+.list_box { 
+    -ms-grid-column:2; 
+    grid-column-start:2; 
+    grid-column-end: 7; 
+    -ms-grid-row: 3; 
+    grid-row-start: 3; 
+
+    margin-left: auto; 
+    margin-right: auto; 
+
+    border: black solid 1px;
+    border-radius: 30px; 
+    background-color: white; 
+    position: relative; 
+    bottom: 3%; 
+    padding-right: 2%; 
+}
+
+.hacking, .mathematics, .domain { 
+    display: inline-block; 
+}
+
+.hacking { 
     margin-bottom: 5%; 
 }
 
-.curr_box { 
-    -ms-grid-column:3; 
-    grid-column-start:3; 
-    grid-column-end: 4; 
+.hacking li, .mathematics li, .domain li {
+    font-size: 18px; 
+ }
+
+.list_titles { 
+    font-weight: bold; 
+    text-decoration: underline; 
+    text-align: center; 
 }
 
-.curr_box li { 
-    font-size: 18px; 
-}
+
+
 
 
 /* Experiences */ 
 
 .exp_tron { 
-    height: 80%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.2fr 1fr 2fr 0.2fr;
-        grid-template-columns: 0.2fr 1fr 2fr 0.2fr;
-    -ms-grid-row: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr; 
+    -ms-grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-gap: 5%;
-    row-gap: 30%;
+    height: 250%; 
 }
+
+.work_contain { 
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+.work_contain img { 
+    margin-left: 3%; 
+}
+
+.work_contain li { 
+    font-size: 18px; 
+}
+
+.work { 
+    margin-top: 5%; 
+}
+.exp_tron p { 
+    font-size: 18px; 
+}
+
+.summary { 
+    grid-row-start:1; 
+}
+
+.summary p { 
+    text-align: center; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: red; 
+}
+
+.phnrc { 
+    grid-row-start: 2; 
+}
+
+.phncr img { 
+    display: block;
+    float: right; 
+}
+
+.phncr ul { 
+    font-size: 16px; 
+}
+
+.tallgrass { 
+    grid-row-start: 3; 
+}
+
+.deb_captain { 
+    grid-row-start: 4;
+}
+
+.deb_captain img { 
+    float: right; 
+}
+
+.work_compost { 
+    grid-row-start: 5; 
+}
+
+.compost img { 
+    float: right; 
+}
+
+.busser { 
+    margin-top: 10%; 
+}
+
+.list { 
+    font-size: 16px; 
+}
+
+
+
+
+
+
