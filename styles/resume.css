@@ -170,7 +170,7 @@ h3 {
     -ms-grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-gap: 5%;
-    height: 250%; 
+    height: 270%; 
 }
 
 .work_contain { 

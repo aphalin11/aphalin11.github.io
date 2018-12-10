@@ -1,5 +1,6 @@
 .nav a { 
     font-size: 18px;
+    color: #82b74b; 
 }
 
 .nav_name { 
@@ -7,9 +8,58 @@
     float: right; 
 }
 
-.page-header { 
-    margin-left: 3%; 
-    height: 7%;
+/* #3e4444 #82b74b #405d27 #c1946a */ 
+.header-contain { 
+    background-image: url("./../images/forest_bg.jpg"); 
+    height: 50%;
+}
+
+.page-headers { 
+    height: 50%;
+    width: 30%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgba(51, 170, 51, .7) ; 
+    position: relative; 
+    top: 20%;
+
+}
+
+#motto { 
+    font-size: 18px; 
+    text-align: center; 
+    font-style: italic; 
+}
+
+.header-contain h1 { 
+    text-align: center; 
+    color: white; 
+    font-size: 48px;  
+}
+
+.header-contain h1, .header-contain p { 
+    position: relative; 
+    top: 15%; 
+}
+
+* { 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* colors and font-families */ 
+
+.jumbotron { 
+    background-color: #3e4444; 
+}
+
+.container-fluid { 
+    background-color: #3e4444; 
+    color: #3e4444; 
+}
+
+.active { 
+    background-color: #57bc90; 
 }
 
 
@@ -26,13 +76,21 @@
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-gap: 5%;
-    row-gap: 45%;
-    height: 100px;
+    row-gap: 10%;
+    height: 5%;
+    position: relative; 
+    top: 10%; 
 }
 
 .icon { 
     font-size: 500%;
     margin-left: 7%; 
+}
+
+.b { 
+    position: relative; 
+    bottom: 110%;
+    color: #405d27; 
 }
 
 .b h4, .b .icon { 
@@ -109,8 +167,15 @@
     font-size: 18px;
 }
 
+.pCont { 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-left: 2%; 
+    color: #3e4444; 
+}
+
 #first_line { 
-    color: red; 
+    color: #57bc90; 
     font-weight: bold; 
 }
 
@@ -125,7 +190,7 @@
 button { 
     border: none; 
     text-align: center; 
-    background-color: rgba(2,179,228,.9); 
+    background-color: #a5a5af; 
     color: black; 
     font-size: 20px;
     font-weight: bold; 
@@ -139,12 +204,27 @@ button {
     padding-right: 1%;
 }
 
+.contact_box { 
+    background-image: #a5a5af; 
+    margin-left: 3%; 
+    margin-top: 10%; 
+    padding-top: 2%; 
+    border-top: solid #c1946a 1px; 
+    border-bottom: solid #c1946a 1px; 
+    padding-bottom: 2%; 
+}
+
+.contact_box h3 { 
+    font-weight: bold; 
+    width: 100%; 
+}
+
 .contact { 
     color: red; 
     font-weight: bold; 
 }
 
 .head_summary a{ 
-    color: blue; 
+    color: #015249; 
 }
 

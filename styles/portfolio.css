@@ -1,3 +1,42 @@
+.stats_wallpaper { 
+    background-image: url("./../images/stats_background.png"); 
+    height: 50%; 
+    background-position: center; 
+    position: relative; 
+    bottom: 3%;
+}
+
+.port_title { 
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+#port_titlesub { 
+    margin-bottom: 0; 
+}
+
+.header_b { 
+    width: 100%; 
+    border-bottom: #015249 solid; 
+    margin-bottom: 2%; 
+}
+
+.data_heads { 
+    text-align: left; 
+    font-weight: bold; 
+    color: #015249; 
+    margin-bottom: 2%; 
+    font-size: 28px;
+}
+
+.data_headsR { 
+    text-align: right; 
+    font-weight: bold; 
+    color: #015249; 
+    margin-bottom: 2%; 
+    font-size: 28px; 
+}
+
 .port_summary { 
     font-size: 18px; 
     text-align: center; 
@@ -6,14 +45,77 @@
     margin-bottom: 5%; 
 }
 
+.emphasized { 
+    color: red; 
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+.skills { 
+    background-color: rgba(51, 170, 51, .3); 
+    margin-top: 5%; 
+    padding: 2%;
+    border-top: solid #015249 1px;
+    border-bottom: solid #015249 1px; 
+}
+
+.tool_head { 
+    margin-right: auto; 
+    margin-left: auto;
+    font-size: 22px; 
+    font-weight: bold;  
+}
+
 .tool_list li { 
     display: inline; 
     padding-right: 8%; 
-    font-size: 20px; 
-    font-weight: bold; 
+    font-size: 18px;  
     list-style-type: disc; 
-    text-decoration:underline; 
-    text-decoration-style: 
+}
+
+#secondlist {
+    margin-top: 5%; 
+}
+
+.fa { 
+    font-size: 22px; 
+    margin-right: 2%; 
+}
+
+.fa1 { 
+    margin-right: 2%;
+    font-size: 26px;
+}
+
+#ds_chart { 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10%; 
+}
+
+#next_body { 
+    margin-top: 7%; 
+    margin-bottom: 10%; 
+}
+
+#resource_tit { 
+    text-align: left; 
+    font-weight: bold; 
+    font-size: 22px;
+
+}
+
+.skills img { 
+    float: right; 
+    margin-right: 5%; 
+}
+
+.resource { 
+    margin-left: 10%; 
+    font-size: 18px; 
+    text-align: left; 
 }
 
 
@@ -24,10 +126,21 @@
         grid-template-columns: 0.8fr 1.7fr 1.7fr 0.8fr ;
     -ms-grid-rows: 1fr 1fr 1fr 1fr ; 
         grid-template-rows: 1fr 1fr 1fr 1fr ; 
-    grid-gap: 5%;
-    row-gap: 45%;
-    height: 100px;
+    grid-gap: 5%; 
+    height: 270%;
+    /* background-image: linear-gradient(to right, #77c9d4, #57bc90);
+    border-top: solid #015249 1px; */ 
 }
+
+button { 
+    border: solid #015249 1px; 
+}
+
+
+.port_1, .port_2 { 
+    margin-top: 5%; 
+}
+
 
 .portButt { 
     display: block; 
