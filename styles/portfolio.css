@@ -109,15 +109,69 @@
 
 .skills img { 
     float: right; 
-    margin-right: 5%; 
+    margin-right: 3%; 
+    margin-left: 2%; 
 }
 
+.college_box { 
+    height: 110%; 
+    margin-bottom: 7%; 
+}
+
+.college_name { 
+    width: 50%; 
+    border: solid #015249 0.5px; 
+    background-color: rgba(51, 170, 51, .7); 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.college_box img { 
+    display: block;
+    float: left; 
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.extracur_box { 
+    float:right; 
+    width: 50%;
+    margin-top: 2%; 
+    border-left: solid #015249 0.5px;  
+}
+
+.extracur_box p { 
+    font-size: 16px; 
+}
+
+.extracur_box span, .research span { 
+    font-style: italic; 
+    font-size: 15px;
+}
 .resource { 
     margin-left: 10%; 
     font-size: 18px; 
     text-align: left; 
 }
 
+.research h3 { 
+    font-weight: bold; 
+    text-align: left; 
+}
+
+.research p { 
+    margin-left: 5%; 
+}
+
+#workflow { 
+    position: relative; 
+    bottom: 20%; 
+}
+
+.skills { 
+    position: relative; 
+    bottom: 20%; 
+}
 
 .Pcontainer { 
     display: -ms-grid;
