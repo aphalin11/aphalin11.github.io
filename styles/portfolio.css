@@ -1,9 +1,28 @@
 .stats_wallpaper { 
     background-image: url("./../images/stats_background.png"); 
-    height: 50%; 
+    height: 40%; 
     background-position: center; 
     position: relative; 
     bottom: 3%;
+}
+
+.port_header { 
+    background-color: rgba(22, 22, 161, 0.7);
+    color: white; 
+}
+
+.port_header h1 { 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.port_header p { 
+    text-align: center; 
+}
+
+.port_header h1, .port_header p { 
+    position: relative; 
+    top: 15%; 
 }
 
 .port_title { 
@@ -114,8 +133,17 @@
 }
 
 .college_box { 
-    height: 110%; 
-    margin-bottom: 7%; 
+    margin-bottom: 7%;         
+    height: 103%;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 0.5fr;
+    -ms-grid-rows: 0.5fr 1fr 1fr ; 
+        grid-template-rows: 0.5fr 1fr 1fr ; 
+
+
 }
 
 .college_name { 
@@ -124,20 +152,40 @@
     background-color: rgba(51, 170, 51, .7); 
     margin-left: auto; 
     margin-right: auto; 
+    margin-bottom: 2%;
+    height: 100%;
+
+    -ms-grid-column:1; 
+    grid-column-start:1; 
+    grid-column-end: 3; 
+    -ms-grid-row: 1;
+    grid-row-start:1;
 }
 
 .college_box img { 
     display: block;
     float: left; 
     margin-top: 10%;
-    margin-bottom: 5%;
+
+    -ms-grid-column:1; 
+    grid-column-start:1; 
+    grid-column-end: 2; 
+    -ms-grid-row: 2;
+    grid-row-start:2;
 }
 
 .extracur_box { 
     float:right; 
-    width: 50%;
-    margin-top: 2%; 
+    width: 100%;
     border-left: solid #015249 0.5px;  
+    height: 50%;
+    margin-top: 2%;
+
+    -ms-grid-column:2; 
+    grid-column-start:2; 
+    grid-column-end: 3; 
+    -ms-grid-row: 2;
+    grid-row-start:2;
 }
 
 .extracur_box p { 
@@ -157,6 +205,15 @@
 .research h3 { 
     font-weight: bold; 
     text-align: left; 
+}
+
+.research { 
+    -ms-grid-column:1; 
+    grid-column-start:1; 
+    grid-column-end: 3; 
+    -ms-grid-row: 3;
+    grid-row-start:3;
+    height: 40%;
 }
 
 .research p { 
@@ -200,8 +257,9 @@ button {
     display: block; 
     margin-left: auto; 
     margin-right: auto;  
-    width: 25%;
+    width: 40%;
     margin-bottom: 3%; 
+    background-color: #82b74b; 
 }
 
 .block_title { 

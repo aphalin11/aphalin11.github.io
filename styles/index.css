@@ -3,6 +3,10 @@
     color: #82b74b; 
 }
 
+img { 
+    max-width: 100%; 
+}
+
 .nav_name { 
     position: block; 
     float: right; 
@@ -22,10 +26,9 @@
     background-color: rgba(51, 170, 51, .7) ; 
     position: relative; 
     top: 20%;
-
 }
 
-#motto { 
+.motto { 
     font-size: 18px; 
     text-align: center; 
     font-style: italic; 
@@ -226,5 +229,24 @@ button {
 
 .head_summary a{ 
     color: #015249; 
+}
+
+
+.bottom_banner { 
+    height: 20px; 
+    background-color: #3e4444; 
+    position: relative; 
+    top: 100%;
+}
+
+
+/* responsiveness */ 
+
+@media screen and (max-width: 1000px) {
+    html { 
+        display: none; 
+    }
+
+
 }
 
