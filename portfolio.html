@@ -1,102 +1,109 @@
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aaron Phalin - Data Science</title>
     <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href= "bootstrap-3.3.7-dist/css/bootstrap.min.css" rel= "stylesheet"> 
-    <link href = "./styles/index.css" rel= "stylesheet">
-    <link href = "./styles/portfolio.css" rel = "stylesheet"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body> 
-        <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  </div>
-              
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                      <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                      <li class="active"><a href = "portfolio.html"> Portfolio </a></li>
-                      <li><a href="documents/phalin_resume.pdf">Resume</a></li>
-                    </ul>
+</head>
 
-                  </div>
-                </div>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="portfolio.html"> Portfolio </a></li>
+                    <li><a href="documents/phalin_resume.pdf">Resume</a></li>
+                    <li> <a href="learn.html"> Personal Curriculum </a></li>
+                </ul>
+
+            </div>
+        </div>
     </nav>
 
-    <div class = "stats_wallpaper">
-            <div class = "page-headers port_header"> 
-                    <h1> Data Science Portfolio </h1>
-                    <p class = "motto"> Data Exploration, Regression-Fitting, and Storytelling </p>
-                </div>
-    </div> 
-        
-    
-            <div class = "Pcontainer">
-        
-                <div class = "port_1"> 
-                    <a href = "./projects/econ380_final_project.pdf"> <button class = "portButt" type="button">PDF Report</button></a> 
-                    <img class = "block_img" src = "images/bechdel.jpg" height = 400px width = 400px>
-                    <h4 class = "block_title"> Bechdel Test Regression </h4>
-                    <p class = "block_p"> Ran a Logistic Regression to determine which features of 
-                        a 4000 movie sample data set increased the likelihood of 
-                        the film failing an important Gender test. 
-                    </p>
-                </div>
-        
-                <div class = "port_2"> 
-                        <a href = "./projects/econ380_foodsecurity.pdf"> <button class = "portButt" type="button">PDF Report</button> </a>
-                        <img class = "block_img" src = "images/garden.jpg" height = 400px width = 400px>
-                        <h4 class = "block_title"> Food Insecurity Regression </h4>
-                        <p class = "block_p"> Ran an OLS Regression to correlate ethnicity percentage
-                            statistics in counties across the United States with food insecurity 
-                            measurements.  
-                        </p>
-                </div>
-        
-                <div class = "port_3"> 
-                        <a href = "./projects/econ481_butterfly.pdf"> <button class = "portButt" type="button">PDF Report</button> </a>
-                        <img class = "block_img" src = "images/butterfly.jpg" height = 400px width = 400px>
-                        <h4 class = "block_title"> Monarch Urban Regression </h4>
-                        <p class = "block_p"> Ran an OLS Regression to determine the potential each Urban 
-                            land-use types in Chicago has shown the best responsiveness to Monarch repopulation
-                            program and highest biological impact. 
-                        </p>
-                </div>
-        
-                <div class = "port_4"> 
-                        <button class = "portButt" type="button"> RPubs Report</button>
-                        <img class = "block_img" src = "images/pubg.jpg" height = 400px width = 400px>
-                        <h4 class = "block_title"> Battle Royale Exploratory Data Analysis </h4>
-                        <p class = "block_p"> Using R, explored a large data set on player kills 
-                            and statistics in a Battle Royale FPS video game. 
-                        </p>
-                </div>
-        
-                <div class = "port_5"> 
-                        <a href = "https://rpubs.com/aphalin11/361263""> <button class = "portButt" type="button">RPubs Report</button> </a>
-                        <img class = "block_img" src = "images/chicago_crime.jpg" height = 400px width = 400px>
-                        <h4 class = "block_title"> Chicago Crime Exploratory Data Analysis </h4>
-                        <p class = "block_p"> Using R, explored a large data set on crime reports 
-                            throughout Chicago to visualize spatial and temporal trends. 
-                        </p>
-                </div>
-        
-            </div> 
+    <div class="stats_wallpaper">
+        <div class="page-headers port_header">
+            <h1> Data Science Portfolio </h1>
+            <p class="motto"> Data Exploration, Regression-Fitting, and Storytelling </p>
+        </div>
+    </div>
 
-  </body>
+
+    <div class="Pcontainer">
+
+        <div class="port_1">
+            <a href="./projects/econ380_final_project.pdf"> <button class="portButt" type="button">PDF Report</button></a>
+            <img class="block_img" src="images/bechdel.jpg" height=400px width=400px>
+            <h4 class="block_title"> Bechdel Test Regression </h4>
+            <p class="block_p"> Ran a Logistic Regression to determine which features of
+                a 4000 movie sample data set increased the likelihood of
+                the film failing an important Gender test.
+            </p>
+        </div>
+
+        <div class="port_2">
+            <a href="./projects/econ380_foodsecurity.pdf"> <button class="portButt" type="button">PDF Report</button>
+            </a>
+            <img class="block_img" src="images/garden.jpg" height=400px width=400px>
+            <h4 class="block_title"> Food Insecurity Regression </h4>
+            <p class="block_p"> Ran an OLS Regression to correlate ethnicity percentage
+                statistics in counties across the United States with food insecurity
+                measurements.
+            </p>
+        </div>
+
+        <div class="port_3">
+            <a href="./projects/econ481_butterfly.pdf"> <button class="portButt" type="button">PDF Report</button> </a>
+            <img class="block_img" src="images/butterfly.jpg" height=400px width=400px>
+            <h4 class="block_title"> Monarch Urban Regression </h4>
+            <p class="block_p"> Ran an OLS Regression to determine the potential each Urban
+                land-use types in Chicago has shown the best responsiveness to Monarch repopulation
+                program and highest biological impact.
+            </p>
+        </div>
+
+        <div class="port_4">
+            <button class="portButt" type="button"> RPubs Report</button>
+            <img class="block_img" src="images/pubg.jpg" height=400px width=400px>
+            <h4 class="block_title"> Battle Royale Exploratory Data Analysis </h4>
+            <p class="block_p"> Using R, explored a large data set on player kills
+                and statistics in a Battle Royale FPS video game.
+            </p>
+        </div>
+
+        <div class="port_5">
+            <a href="https://rpubs.com/aphalin11/361263""> <button class = " portButt" type="button">RPubs Report</button>
+            </a>
+            <img class="block_img" src="images/chicago_crime.jpg" height=400px width=400px>
+            <h4 class="block_title"> Chicago Crime Exploratory Data Analysis </h4>
+            <p class="block_p"> Using R, explored a large data set on crime reports
+                throughout Chicago to visualize spatial and temporal trends.
+            </p>
+        </div>
+
+    </div>
+
+</body>

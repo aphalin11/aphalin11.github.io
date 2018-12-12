@@ -232,6 +232,54 @@ button {
 }
 
 
+.skillsIndex { 
+    background-color: rgba(51, 170, 51, .3); 
+    margin-top: 5%; 
+    padding: 2%;
+    border-top: solid #015249 1px;
+    border-bottom: solid #015249 1px; 
+
+    -ms-grid-row:3; 
+    grid-row-start:3; 
+    -ms-grid-column:1; 
+    grid-column-start:1; 
+    grid-column-end: 6; 
+
+    width: 60%;
+
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+.tool_head { 
+    margin-right: auto; 
+    margin-left: auto;
+    font-size: 22px; 
+    font-weight: bold;  
+}
+
+.tool_list li { 
+    display: inline; 
+    padding-right: 8%; 
+    font-size: 18px;  
+    list-style-type: disc; 
+}
+
+#secondlist {
+    margin-top: 5%; 
+}
+
+.fa { 
+    font-size: 22px; 
+    margin-right: 2%; 
+}
+
+.fa1 { 
+    margin-right: 2%;
+    font-size: 26px;
+}
+
 .bottom_banner { 
     height: 20px; 
     background-color: #3e4444; 

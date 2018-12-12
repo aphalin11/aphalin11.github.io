@@ -202,3 +202,25 @@
     position: relative; 
     bottom: 20%; 
 }
+
+
+
+
+/* responsiveness */ 
+
+
+@-moz-document url-prefix() {
+
+    .college_box { 
+        position: relative; 
+        top: 10%; 
+        margin-bottom: 20%;
+    }
+
+    .extracur_box, .college_box img{ 
+        position: relative; 
+        top: 10%; 
+    }
+
+  }
+
