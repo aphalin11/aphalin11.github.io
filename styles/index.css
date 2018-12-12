@@ -250,3 +250,21 @@ button {
 
 }
 
+@-moz-document url-prefix() {
+
+    .container { 
+        position: relative; 
+        top: 20%;
+        margin-bottom: 2%;
+    }
+
+    .head_summary, img { 
+        position: relative; 
+        bottom: 20%;
+    }
+
+    .bottom_banner { 
+        display: none; 
+    }
+  }
+
